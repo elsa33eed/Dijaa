@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dijaa</title>
+    <!-- link CSS file -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- link Normalize file -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- like icon libarery css -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- link font from Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;400;900&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <span class="up"><i class="fa-solid fa-angles-up"></i></span>
+    <!-- Start setting box -->
+    <div class="setting-box">
+      <div class="icon-setting"><i class="fa fa-gear"></i></div>
+      <div class="setting-content">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="color_list">
+            <li class="active" data-color="#3280fd"></li>
+            <li data-color="#38d996"></li>
+            <li data-color="#9085da"></li>
+            <li data-color="#d36ec6"></li>
+            <li data-color="#fc6481"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Background Option</h4>
+          <div class="button">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End setting box -->
+    <!-- Start landing page -->
+    <div class="landing">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header">
+          <div class="logo">Dijaa</div>
+          <ul>
+            <li><a class="active" href="#landing">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#our-skill">Our Skills</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+            <button type="button">Login</button>
+          </ul>
+        </div>
+        <div class="content">
+          <h1>We Are <span>Creative</span> Agency</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            nisi nobis repudiandae, aut velit et vero vel eos, at laudantium ab
+            alias odit expedita minima eaque,
+          </p>
+          <a href="#">Apply Now</a>
+        </div>
+      </div>
+    </div>
+    <!-- end landing page -->
+
+    <!-- Startour skills section -->
+    <div class="our-skills" id="our-skill">
+      <div class="container">
+        <h2>OUR SKILLS</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="95%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="85%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JAVASCRIPT</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">REACT</div>
+          <div class="skill-progress">
+            <span data-progress="5%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">SASS</div>
+          <div class="skill-progress">
+            <span data-progress="15%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End our skills section -->
+    <!-- Start About us section -->
+    <div class="about" id="about-us">
+      <div class="container">
+        <div class="info-box">
+          <h2>ABOUT US</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa,
+            velit, beatae repudiandae libero blanditiis molestiae error, cum
+            iste commodi saepe nam tempore nobis porro id voluptatum expedita
+            sunt aut quia.
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="./image/about-us.jpg" alt="Image Not Found" />
+        </div>
+      </div>
+    </div>
+    <!-- end About us section -->
+    <!-- link JavaScript file -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
