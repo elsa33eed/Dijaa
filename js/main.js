@@ -96,12 +96,18 @@ switchBackEl.forEach((span) => {
       localStorage.setItem("background_option", true);
 
       randomizeImgs();
+
+      document
+        .querySelector(".landing .content h1 span")
+        .classList.remove("fill");
     } else {
       backgroundOption = false;
 
       localStorage.setItem("background_option", false);
 
       clearInterval(backgroundInterval);
+
+      document.querySelector(".landing .content h1 span").classList.add("fill");
     }
   });
 });
