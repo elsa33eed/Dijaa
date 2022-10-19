@@ -1,5 +1,5 @@
 # Dijaa
 My new project "Dijaa" website template
 
-##UPDATE
+## UPDATE
 1) Launch Our Website
